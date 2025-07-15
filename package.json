@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "A small wrapper around Zotero translation server to support fetching attachments and cli use",
   "main": "./bin/index.js",
-  "bin":{
-      "zotra": "./bin/index.js"
+  "bin": {
+    "zotra": "./bin/index.js"
   },
   "scripts": {
-      "start": "node bin/index.js server",
-      "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/index.js server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mohammad Pedramfar",
   "license": "AGPLv3",
   "dependencies": {
-      "yargs": "^17.6.2",
-      "translation-server": "./module/translation-server"
+    "config": "^4.0.0",
+    "translation-server": "./module/translation-server",
+    "yargs": "^17.6.2"
   }
 }
